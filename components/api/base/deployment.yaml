@@ -12,11 +12,11 @@ spec:
         app: api
     spec:
       containers:
-        - name: base
-          image: yvka/parloa-base:1
+        - name: ngnix-server
+          image: nginx:1.23.1
           resources:
             limits:
               memory: "128Mi"
               cpu: "500m"
           ports:
-            - containerPort: 8080
+            - containerPort: 80
