@@ -4,4 +4,4 @@ kind: Kustomization
 namespace: production
 
 resources:
-  - ../../components/api/base
+  - ../../components/todo-api/base

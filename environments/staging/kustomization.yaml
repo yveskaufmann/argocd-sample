@@ -4,4 +4,4 @@ kind: Kustomization
 namespace: staging
 
 resources:
-  - ../../components/api/base
+  - ../../components/todo-api/base
